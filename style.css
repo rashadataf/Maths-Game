@@ -12,9 +12,9 @@ html {
 
 .container {
   width: 90vw;
-  height: 80vh;
+  height: 81vh;
   background-color: #9dd2ea;
-  margin: 10vh 5vw;
+  margin: 9.5vh 5vw;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0rem 0.4rem 0rem 0rem #009de4;
@@ -55,10 +55,10 @@ html {
 
 .questions {
   width: 80vw;
-  height: 30vh;
+  height: 20vh;
   position: absolute;
   background-color: #9da0ea;
-  margin: 15% auto 1% auto;
+  margin: 19% auto 1% auto;
   box-shadow: 0rem 0.4rem #535aa8;
   font-size: 10rem;
   text-align: center;
@@ -70,9 +70,93 @@ html {
   width: 80vw;
   height: 10vh;
   background-color: #b481d9;
-  margin: 57% 0 1% 0;
+  margin: 62% 0 1% 0;
   text-align: center;
   line-height: 5rem;
   font-size: 2rem;
   box-shadow: 0rem 0.4rem #8153a8;
+}
+
+.solutions {
+  width: 80vw;
+  height: 20vh;
+  margin: 4% 0 2% 0;
+  display: flex;
+}
+
+.choice {
+  width: 18vw;
+  height: 90%;
+  border: 1px solid #909290;
+  background-color: white;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 9rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0rem 0.4rem #747677;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.choice:first-child {
+  margin-left: 0;
+  margin-right: 1vw;
+}
+
+.choice:last-child {
+  margin-right: 0;
+  margin-left: 1vw;
+}
+
+.choice:nth-child(2) {
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+}
+
+.choice:nth-child(3) {
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+}
+
+.choice:hover,
+.startReset:hover {
+  background-color: #9c89f6;
+  color: white;
+  box-shadow: 0rem 0.4rem #6b54d3;
+}
+
+.choice:active,
+.startReset:active {
+  box-shadow: 0rem 0rem #6b54d3;
+  top: 0.4rem;
+}
+
+.startReset {
+  width: 20vw;
+  height: 10vh;
+  background-color: rgba(174, 224, 224, 0.521);
+  color: rgb(240, 8, 8);
+  text-align: center;
+  font-size: 2rem;
+  line-height: 4.7rem;
+  border-radius: 3rem;
+  margin: 0 auto;
+  box-shadow: 0rem 0.2rem #6b54d3;
+  cursor: pointer;
+}
+
+.timeRemaining {
+  width: 50vw;
+  height: 10vh;
+  text-align: center;
+  line-height: 4rem;
+  background-color: rgba(97, 124, 21, 0.5);
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  font-size: 1.5rem;
+  border-radius: 0.4rem;
+  box-shadow: 0rem 0.4rem #413a3b;
+  display: none;
 }
