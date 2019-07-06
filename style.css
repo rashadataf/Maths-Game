@@ -174,3 +174,142 @@ html {
   display: none;
   z-index: 2;
 }
+
+@media screen and (min-width: 480px) {
+  .container {
+    height: 90vh;
+  }
+
+  .questions {
+    margin: 13% auto;
+  }
+
+  .instruction {
+    margin: 32.5% 0;
+  }
+
+  .solutions {
+    margin: -31% 0;
+  }
+
+  .startReset {
+    margin: 32% auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    height: 75vh;
+  }
+
+  .questions {
+    margin: 11% auto;
+  }
+
+  .instruction {
+    margin: 45% 0;
+  }
+
+  .solutions {
+    margin: -43% 0;
+  }
+
+  .startReset {
+    margin: 42% auto;
+  }
+
+  .correct,
+  .wrong {
+    margin: -8% 0;
+  }
+
+  .timeRemaining {
+    width: 40vw;
+    height: 5vh;
+    margin: -2% 0;
+  }
+
+  .correct,
+  .wrong,
+  .timeRemaining {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    height: 85vh;
+  }
+
+  .questions {
+    margin: 11% auto;
+  }
+
+  .instruction {
+    margin: 31% 0;
+  }
+
+  .solutions {
+    margin: -29% 0;
+  }
+
+  .startReset {
+    margin: 32% auto;
+  }
+
+  .correct,
+  .wrong {
+    margin: 0 0;
+  }
+
+  .timeRemaining {
+    width: 40vw;
+    height: 5vh;
+    margin: -2% 0;
+  }
+
+  .correct,
+  .wrong,
+  .timeRemaining {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .container {
+    height: 85vh;
+  }
+
+  .questions {
+    margin: 5% auto;
+  }
+
+  .instruction {
+    margin: 16% 0;
+  }
+
+  .solutions {
+    margin: -15% 0;
+  }
+
+  .startReset {
+    margin: 15% auto;
+  }
+
+  .correct,
+  .wrong {
+    margin: -2% 0;
+  }
+
+  .timeRemaining {
+    width: 40vw;
+    height: 5vh;
+    margin: -2% 0;
+  }
+
+  .correct,
+  .wrong,
+  .timeRemaining {
+    display: block;
+  }
+}
