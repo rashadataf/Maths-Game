@@ -228,12 +228,6 @@ html {
     height: 5vh;
     margin: -2% 0;
   }
-
-  .correct,
-  .wrong,
-  .timeRemaining {
-    display: block;
-  }
 }
 
 @media screen and (min-width: 800px) {
@@ -267,12 +261,6 @@ html {
     height: 5vh;
     margin: -2% 0;
   }
-
-  .correct,
-  .wrong,
-  .timeRemaining {
-    display: block;
-  }
 }
 
 @media screen and (min-width: 1100px) {
@@ -305,11 +293,5 @@ html {
     width: 40vw;
     height: 5vh;
     margin: -2% 0;
-  }
-
-  .correct,
-  .wrong,
-  .timeRemaining {
-    display: block;
   }
 }
