@@ -30,3 +30,25 @@ html {
   font-size: 2.5rem;
   box-shadow: 0rem 0.4rem 0rem 0rem #9da853;
 }
+
+.correct {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  background-color: #2f973a;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  display: none;
+}
+
+.wrong {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  background-color: #b10d23;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  display: none;
+}
