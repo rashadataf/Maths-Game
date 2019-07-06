@@ -18,4 +18,15 @@ html {
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0rem 0.4rem 0rem 0rem #009de4;
+  position: relative;
+}
+
+.score {
+  background-color: #f1ff92;
+  color: #888e5f;
+  padding: 1rem;
+  position: absolute;
+  right: 1rem;
+  font-size: 2.5rem;
+  box-shadow: 0rem 0.4rem 0rem 0rem #9da853;
 }
