@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  height: 100%;
+  background-image: radial-gradient(circle, #fff, #ccc);
+}
+
+.container {
+  width: 90vw;
+  height: 80vh;
+  background-color: #9dd2ea;
+  margin: 10vh 5vw;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0rem 0.4rem 0rem 0rem #009de4;
+}
