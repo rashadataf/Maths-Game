@@ -163,7 +163,7 @@ html {
 
 .gameOver {
   width: 80vw;
-  height: 70vh;
+  height: 60vh;
   background-color: rgba(187, 52, 52, 0.959);
   font-size: 2.5rem;
   text-align: center;
@@ -281,7 +281,7 @@ html {
   }
 
   .startReset {
-    margin: 15% auto;
+    margin: 18% auto;
   }
 
   .correct,
