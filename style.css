@@ -160,3 +160,17 @@ html {
   box-shadow: 0rem 0.4rem #413a3b;
   display: none;
 }
+
+.gameOver {
+  width: 80vw;
+  height: 70vh;
+  background-color: rgba(187, 52, 52, 0.959);
+  font-size: 2.5rem;
+  text-align: center;
+  /* line-height: 20rem; */
+  padding-top: 15rem;
+  position: absolute;
+  top: 10%;
+  display: none;
+  z-index: 2;
+}
