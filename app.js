@@ -55,7 +55,7 @@ function generateQA() {
 
 document.querySelectorAll(".choice").forEach(choice =>
   choice.addEventListener("click", function() {
-    if (parseInt(choice.innerHTML) === answer) {
+    if (choice.innerHTML !== "" && parseInt(choice.innerHTML) === answer) {
       score += 1;
       updateScore();
       document.querySelector(".correct").style.display = "block";
@@ -63,7 +63,10 @@ document.querySelectorAll(".choice").forEach(choice =>
         document.querySelector(".correct").style.display = "none";
       }, 700);
       generateQA();
-    } else {
+    } else if (
+      choice.innerHTML !== "" &&
+      parseInt(choice.innerHTML) !== answer
+    ) {
       document.querySelector(".wrong").style.display = "block";
       setTimeout(function() {
         document.querySelector(".wrong").style.display = "none";
